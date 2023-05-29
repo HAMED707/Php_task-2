@@ -1,0 +1,132 @@
+/* :root{
+    --active-color:#155e16;
+    --navfooter-color:rgb(0, 0, 0);
+} */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #DBDBDB; */
+}
+
+nav{
+    position: relative;
+    background-color:var( --navfooter-color) ;
+    width: 100%;
+    height: 94px;
+    display: flex;
+    left: 0;
+    top: 0;
+
+}
+nav .logo{
+    width: 11%;
+}
+
+nav .logo img{
+    width: 100%;
+}
+nav  .option_box {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 41px 0px 30px;
+    width: 100%;
+    text-align: right;
+    font-size: 23px;
+
+
+}
+nav .option_box li{
+    padding: 0 10px 0 10px  ;
+    display: inline-block;
+}
+nav .option_box li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    transition: 0.3s;
+}
+nav .option_box li a.active{
+    color:var( --active-color) ;
+}
+nav .option_box li a:hover{
+    color:var( --active-color) ;
+}
+/* langing page */
+.langing_page{
+    display:flex;
+}
+.title{margin: 170px;}
+.title h1{
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+    text-align: center;
+    font-size: xxx-large;
+    /* display:block; */
+
+}
+.title h1 span{
+    color: var( --active-color);
+}
+.title h3{
+    text-align: center;
+    font-size: large;
+    /* display:block; */
+}
+.tank_descripion{
+        margin: 0 128px 128px;
+        width: 710px;
+
+}
+
+.langing_page  .tank_descripion span{
+    color: black;
+    font-size: 65px;
+    font-weight: bold;
+}
+.langing_page .tank_descripion  p{
+    font-size: x-large;
+    
+}
+
+.langing_page  .tank_img{
+    width: 48%;
+    
+}
+.langing_page   .tank_img img{
+    width: 100%;
+    border-radius:56px ;
+
+}
+/* end landing page */
+/* start footer */
+footer{
+    width: 100%;
+    background-color: var( --navfooter-color);
+    bottom: 0;
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+}
+footer ul{
+    padding-left: 0;
+
+}
+footer ul li{
+    margin: 26px;
+    display: inline-block;
+}
+footer ul li a{
+    list-style: none;
+    color: white;
+    font-size:28px;
+    transition: 0.3s;
+}
+footer ul li a:hover{
+    color: var( --active-color);
+
+}
+
+/* end footer */
+
